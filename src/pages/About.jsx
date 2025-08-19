@@ -3,7 +3,7 @@ export const About=()=>{
         <div className="bg-[url('/bg.png')] min-h-[78vh] w-full px-[8%] py-[5%] flex flex-col justify-center">
              <div className="grid grid-cols-1 sm:grid-cols-2 bg-white rounded-2xl min-h-[60vh] p-4">
                  <div className="flex justify-center items-center">
-                    <img src="/About.png" className="w-xs mx-auto bg-blend-overlay" alt="" />
+                    <img src="/About.jpg" className="w-xs mx-auto bg-blend-overlay" alt="" />
                   </div>
                   <div className="flex flex-col items-center gap-8 justify-center">
                     <h1 className="text-2xl font-bold">Helping Cinephiles with movies</h1>

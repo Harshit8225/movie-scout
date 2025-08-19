@@ -23,7 +23,7 @@ export const Contact=()=>{
      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full min-h-[50vh]">
      <FormContact className=""></FormContact>
     <div className="w-full flex items-center justify-start">
-      <img src="/contact.jpg" alt="" className="w-[50%] md:w-[70%] max-w-[400px] md:min-w-[320px] m-auto transition-transform duration-300 hover:scale-104 "/>
+      <img src="/contact2.jpg" alt="" className="w-[50%] md:w-[70%] max-w-[400px] md:min-w-[320px] m-auto transition-transform duration-300 hover:scale-104 "/>
     </div>
     </div>
 

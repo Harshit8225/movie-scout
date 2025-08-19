@@ -13,7 +13,7 @@ export const Home=()=>{
             </NavLink>
           </div>
           <div className="flex flex-col items-center justify-center w-full py-4 px-4 max-w-xs mx-auto sm:max-w-sm ">
-            <img src="./movies.png" alt="" className="w-full"/>
+            <img src="./movies2.png" alt="" className="w-full"/>
           </div>
         <Shape />
         </div>
