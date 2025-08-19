@@ -1,0 +1,72 @@
+.nv2.active{
+     text-shadow: 
+   0 0 1px rgba(0,0,0,0.8),
+    0 0 1px rgba(0,0,0,0.7);
+}
+.nv.active{
+         text-shadow: 
+    0 0 1px #fff,
+    0 0 2px #fff;
+}
+html,body,#root{
+   width:100%;
+}
+.custom-shape-divider-bottom-1755462950 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1755462950 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1755462950 .shape-fill {
+    fill: #FFFFFF;
+}
+.m-heading::after{
+    position: absolute;
+    content: "";
+    bottom:-0.3rem;
+    left:0;
+    height: 4px;
+    background-color: black;
+    width:40%;
+    border-radius: 0.3rem;
+}
+.nv::after{
+    content: "";
+    position:absolute;
+    bottom: -0.2rem;
+    left:0;
+    width:0%;
+    height:2px;
+    background-color: white;
+    transition:all 0.3s ease-in-out;
+    border-radius:0.5rem;
+}
+.nv:hover::after{
+    width:100%;
+}
+.nv2::after{
+    content: "";
+    position:absolute;
+    bottom: -0.2rem;
+    left:0;
+    width:0%;
+    height:3.5px;
+    background-color: black;
+    transition:all 0.3s ease-in-out;
+    border-radius:0.5rem;
+}
+.nv2:hover::after{
+    width:100%;
+}
